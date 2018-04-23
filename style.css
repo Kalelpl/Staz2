@@ -655,15 +655,31 @@ input[type=submit] {
     width: 40%;
     display: inline-block;
 }
+    .col2 span {
+    background: url('tick.png') no-repeat 0 center;
+    margin-left: 15%;
+    display: block;
+    color: white;
+    font-weight: 500;
+    padding: 2px 30px;
+}
 }
 /* Small phones to small tablets from 481 to 767px */
 @media only screen and (max-width: 767px) {
-    body {font-size:10px;}
+    body {font-size:12px;}
     
     .linkList {width:14%;}
     
     .linkList:first-child {
     margin-left: 3%;
+}
+    .col2 span {
+    background: url('tick.png') no-repeat 0 center;
+    margin-left: 15%;
+    display: block;
+    color: white;
+    font-weight: 500;
+    padding: 2px 30px;
 }
 }
    
