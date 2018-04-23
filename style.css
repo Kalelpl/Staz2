@@ -1,7 +1,7 @@
 body {
     font-family: "Times New Roman", Times, serif;
     height: 100%;
-    width: 100%;
+    width: 1440px;
     margin: 0;
     padding: 0;
 }
@@ -11,7 +11,6 @@ body {
 .header {
     background-image: url("background.jpg");
     background-size: cover;
-    background-attachment: fixed;
     height: 750px;
     width: 100%;
 }
@@ -166,8 +165,8 @@ input[type=text] {
 .custom-select {
     position: relative;
     opacity: 1;
-    width: 200px;
-    height: 100px;
+    width: 30%;
+    height: 40%;
     display: inline-block;
 }
 
@@ -306,7 +305,7 @@ input[type=submit] {
 .auto {
     width: 15%;
     height: 250px;
-    padding: 0 10px;
+    padding: 0 8px;
 }
 
 /*BLOG*/
@@ -351,22 +350,12 @@ input[type=submit] {
     text-align: center;
 }
 
-.column1 {
-    float: left;
-    width: 50%;
-}
-
 .box {
     width: 45%;
     height: 155px;
     margin: 10px 16px;
     background-color: #ffffff;
     display: inline-block;
-}
-
-.column2 {
-    float: left;
-    width: 50%;
 }
 
 .box p {
@@ -465,8 +454,7 @@ input[type=submit] {
 input[type=submit] {
     width: 200px;
     padding: 5px;
-    margin-top: 5px;
-    margin-right: 10px display: inline-block;
+    margin-top: 3%;
     border: 1px solid #ccc;
 }
 
