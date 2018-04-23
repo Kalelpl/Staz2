@@ -11,6 +11,7 @@ body {
 .header {
     background-image: url("background.jpg");
     background-size: cover;
+    background-attachment: fixed;
     height: 750px;
     width: 100%;
 }
@@ -74,14 +75,13 @@ input[type=text] {
 }
 
 .logo {
+    width: 50%;
     padding-top: 20px;
     float: left;
 }
 
 .menu2 {
     float: right;
-    display: inline-block;
-    padding-top: 33px;
     color: white;
     font-size: 18px;
     font-weight: 600;
@@ -115,7 +115,6 @@ input[type=text] {
 .menu3 {
     clear: both;
     float: right;
-    margin-top: -45px;
     background-color: white;
 }
 
@@ -258,17 +257,16 @@ input[type=submit] {
     width: 60%;
     height: 320px;
     float: left;
-    margin-right: -30px;
 }
 
 .On {
-    height: 300px;
+    height: 100%;
     width: 40%;
     margin-left: 30px;
 }
 
 .Ona {
-    height: 300px;
+    height: 100%;
     width: 40%;
     margin-left: 30px;
 }
@@ -281,11 +279,10 @@ input[type=submit] {
 
 .quarter {
     float: left;
-    padding-bottom: 3px;
-    height: 150px;
+    padding: 3px 2px;
+    height: 49%;
     width: 49%;
     display: inline-block;
-    margin-left: 5px;
 }
 
 /*Bestseller*/
@@ -360,9 +357,9 @@ input[type=submit] {
 }
 
 .box {
-    width: 300px;
-    height: 130px;
-    margin: 22px 15px;
+    width: 45%;
+    height: 155px;
+    margin: 10px 16px;
     background-color: #ffffff;
     display: inline-block;
 }
@@ -379,9 +376,9 @@ input[type=submit] {
 }
 
 .bigBox {
-    width: 90%;
-    height: 305px;
-    margin: 22px 15px;
+    width: 95%;
+    height: 330px;
+    margin: 10px 10px;
     background-color: #ffffff;
     display: inline-block;
 }
@@ -531,7 +528,7 @@ input[type=submit] {
 
 .link {
     margin-top: -2px;
-    margin-left: 130px;
+    margin-left: 11%;
     padding: 25px;
     width: 1100px;
     text-align: center;
@@ -567,7 +564,7 @@ input[type=submit] {
 }
 
 .linkList:first-child {
-    margin-left: 130px;
+    margin-left: 11%;
 }
 
 .linkList h2 {
@@ -577,7 +574,6 @@ input[type=submit] {
 }
 
 .linkList li {
-    margin-left: 2px;
     list-style: none;
     padding-bottom: 10px;
 }
@@ -592,7 +588,7 @@ input[type=submit] {
 }
 
 .bottom {
-    margin-left: 130px;
+    margin-left: 11%;
     padding: 10px;
     width: 1100px;
     text-align: center;
