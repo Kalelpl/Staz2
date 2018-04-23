@@ -1,6 +1,5 @@
 body {
     font-family: "Times New Roman", Times, serif;
-    height: 100%;
     width: 100%;
     margin: 0;
     padding: 0;
@@ -353,7 +352,7 @@ input[type=submit] {
 .box {
     width: 45%;
     height: 155px;
-    margin: 10px 16px;
+    margin: 1.5%;
     background-color: #ffffff;
     display: inline-block;
 }
@@ -367,7 +366,7 @@ input[type=submit] {
 .bigBox {
     width: 95%;
     height: 330px;
-    margin: 10px 10px;
+    margin: 1.5%;
     background-color: #ffffff;
     display: inline-block;
 }
@@ -397,7 +396,7 @@ input[type=submit] {
 }
 
 .about p {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
     color: black;
     margin: -10px 15%;
@@ -414,8 +413,8 @@ input[type=submit] {
 
 .ticketImg {
     width: 60%;
-    height: 270px;
-    padding: 50px 300px;
+    height: 65%;
+    padding: 4% 20%;
 }
 
 /*Newsteller*/
@@ -436,18 +435,18 @@ input[type=submit] {
 .col1 h1 {
     font-size: 20px;
     color: white;
-    margin-left: 160px;
+    margin-left: 23%;
 }
 
 .news {
     float: left;
-    width: 150px;
+    width: 20%;
     height: 100px;
 }
 
 .container {
-    padding: 0 160px;
-    width: 700px;
+    padding: 0 21%;
+    width: 100%;
 }
 
 .container input[type=text],
@@ -487,14 +486,15 @@ input[type=submit] {
 }
 
 .col2 h1 {
-    font-size: 20px;
+    font-size: 16px;
     color: white;
     background: 0;
+    margin-left:15%
 }
 
 .col2 span {
     background: url('tick.png') no-repeat 0 center;
-    padding-left: 30px;
+    margin-left: 15%;
     display: block;
     color: white;
     font-weight: 500;
@@ -518,7 +518,7 @@ input[type=submit] {
     margin-top: -2px;
     margin-left: 11%;
     padding: 25px;
-    width: 1100px;
+    width: 75%;
     text-align: center;
     border-bottom: 1px solid grey;
 }
@@ -578,7 +578,7 @@ input[type=submit] {
 .bottom {
     margin-left: 11%;
     padding: 10px;
-    width: 1100px;
+    width: 75%;
     text-align: center;
     border-top: 1px solid grey;
     border-bottom: 1px solid grey;
@@ -624,3 +624,35 @@ input[type=submit] {
 .fa-map-marker {
     margin-top: 15px;
 }
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .about p {
+        font-size: 12px;
+    }
+    
+    .box,
+    .bigBox {
+        height: 100px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    
+} 
+
+
+
+
+
+
+
+
