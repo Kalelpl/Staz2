@@ -328,7 +328,7 @@ input[type=submit] {
 .blogpost {
     width: 23%;
     height: 250px;
-    padding: 0 12px;
+    padding: 0.8%;
 }
 
 /*FAQ*/
@@ -453,7 +453,7 @@ input[type=submit] {
 input[type=submit] {
     width: 200px;
     padding: 5px;
-    margin-top: 3%;
+    margin-left: 2%;
     border: 1px solid #ccc;
 }
 
@@ -637,6 +637,10 @@ input[type=submit] {
     .bigBox {
         height: 100px;
     }
+    
+    .col1 p {
+    margin-top: 0px;
+}
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -646,7 +650,9 @@ input[type=submit] {
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    
+    .col1 p {
+    margin-top: 0px;
+}
 } 
 
 
