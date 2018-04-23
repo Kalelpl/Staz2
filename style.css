@@ -639,6 +639,22 @@ input[type=submit] {
     .about p {
     font-size: 12px;
 }
+    
+    .custom-select {
+    position: relative;
+    opacity: 1;
+    height: 100%;
+    width:50%;
+    display: inline-block;
+}
+    
+    .test {
+    background-color: #D33F3F;
+    opacity: 0.9;
+    height: 100%;
+    width: 40%;
+    display: inline-block;
+}
 }
 /* Small phones to small tablets from 481 to 767px */
 @media only screen and (max-width: 767px) {
