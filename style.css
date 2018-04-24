@@ -692,6 +692,21 @@ input[type=submit] {
     font-weight: 500;
     padding: 2px 30px;
 }
+    .linkList h2 {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #E42C35;
+}
+    .address {
+    margin-top: 0px;
+}
+    
+    .bottom a {
+    text-decoration: none;
+    color: white;
+    text-align: justify;
+    padding-bottom: 10px;
+}
     
 }
    
