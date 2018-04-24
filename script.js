@@ -69,3 +69,15 @@ function closeAllSelect(elmnt) {
 
 
 document.addEventListener("click", closeAllSelect);
+
+
+/*Mobile Nav*/
+
+function openNav() {
+    document.getElementById("mySidenav").style.width = "100%";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+
