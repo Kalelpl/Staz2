@@ -89,7 +89,7 @@ input[type=text] {
     position: relative;
     display: inline-block;
     float: right;
-    background-color: #D33F3F;
+    background-color: #e42c35;
     text-align: center;
 }
 
@@ -97,7 +97,7 @@ input[type=text] {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #D33F3F;
+    background-color: #e42c35;
     padding: 10px 16px;
     z-index: 1;
 }
@@ -151,7 +151,7 @@ input[type=text] {
 /*Wyszukiwanie ofert*/
 
 .test {
-    background-color: #D33F3F;
+    background-color: #e42c35;
     opacity: 0.9;
     height: 55px;
     width: 43%;
@@ -205,7 +205,7 @@ input[type=text] {
 
 .select-items {
     position: absolute;
-    background-color: #D33F3F;
+    background-color: #e42c35;
     left: 0;
     right: 0;
     z-index: 99;
@@ -221,7 +221,7 @@ input[type=text] {
 }
 
 input[type=submit] {
-    background-color: #D33F3F;
+    background-color: #e42c35;
     color: white;
     opacity: 1;
     font-size: 20px;
