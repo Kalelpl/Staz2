@@ -633,6 +633,10 @@ input[type=submit] {
     .col1 p {
         margin-top: 5px;
     }
+    
+      .about {
+        height: 250px;
+    }
 
     .about p {
         font-size: 12px;
