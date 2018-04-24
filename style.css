@@ -322,10 +322,10 @@ input[type=submit] {
 }
 
 .blogpost {
-    width: 24.5%;
+    width: 23%;
     height: 250px;
     padding-bottom: 0.5%;
-    margin-left: 0.3%;
+    margin-left: 0.5%;
 }
 
 /*FAQ*/
