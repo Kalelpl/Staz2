@@ -827,6 +827,9 @@ input[type=submit] {
     .address {
         margin-top: 0px;
     }
+    
+    .footer {
+        height: 600px;
 
     .col1 h1 {
         margin-top: 1%;
