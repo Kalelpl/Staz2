@@ -232,6 +232,9 @@ input[type=text] {
 
 input[type=submit] {
     background-color: #e42c35;
+    width:200px;
+    padding: 5px;
+    margin-left: 0%;
     color: white;
     opacity: 1;
     margin-top: 2%;
