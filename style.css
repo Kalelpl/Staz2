@@ -836,6 +836,11 @@ input[type=submit] {
             height: 250px;
             padding: 0 0.5%;
         }
+        
+        .blogpost {
+            width: 22%;
+            height: 200px;
+        }
 
         .container input[type=text] {
             width: 100px;
