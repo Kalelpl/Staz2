@@ -234,6 +234,7 @@ input[type=submit] {
     background-color: #e42c35;
     color: white;
     opacity: 1;
+    margin-top: 2%;
     font-size: 20px;
     font-weight: 600;
     padding: 18px 35px;
