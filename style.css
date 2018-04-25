@@ -63,7 +63,6 @@ input[type=text] {
 .search-container button:hover {
     background: #ccc;
 }
-
 .row:after {
     content: "";
     display: table;
@@ -75,20 +74,17 @@ input[type=text] {
     padding-top: 20px;
     float: left;
 }
-
 .openbtn {
     display: none;
     font-size: 30px;
     cursor: pointer;
 }
-
 .menu2 {
     float: right;
     color: white;
     font-size: 18px;
     font-weight: 600;
 }
-
 .dropmenu {
     width: 150px;
     height: 60px;
@@ -98,8 +94,6 @@ input[type=text] {
     background-color: #e42c35;
     text-align: center;
 }
-
-
 .dropdown-content {
     display: none;
     position: absolute;
@@ -107,7 +101,6 @@ input[type=text] {
     padding: 10px 16px;
     z-index: 1;
 }
-
 .dropmenu:hover .dropdown-content {
     display: block;
 }
