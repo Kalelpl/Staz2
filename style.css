@@ -641,10 +641,18 @@ input[type=submit] {
 @media only screen and (max-width: 1023px) {
 
     .logo {
-        width: 75%;
+        width: 55%;
+        float:right;
     }
 
+    .searchOffer h1 {
+     font-size: 30px;   
+    }
 
+    .searchOffer h2 {
+        font-size: 25px;
+    }
+    
     .col1 p {
         margin-top: 5px;
     }
@@ -653,7 +661,7 @@ input[type=submit] {
         position: relative;
         opacity: 1;
         height: 100%;
-        width: 50%;
+        width: 100%;
         display: inline-block;
     }
 
@@ -782,7 +790,7 @@ input[type=submit] {
     }
 
     .linkList:first-child {
-        margin-left: 3%;
+        margin-left: 15%;
     }
     .col2 span {
         background: url('tick.png') no-repeat 0 center;
