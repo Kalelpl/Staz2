@@ -209,9 +209,10 @@
             width: 100px;
         }
         .container input[type=submit] {
-            width: 70px;
+            width: 72px;
             padding: 5px 0;
             margin-top: 5px;
+            margin-left: 3px;
         }
 
         .linkList {
