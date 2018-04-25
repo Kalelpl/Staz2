@@ -903,7 +903,7 @@ input[type=submit] {
         }
 
         .about p {
-            font-size: 10px;
+            font-size: 8px;
         }
 
         .ticket {
@@ -923,13 +923,13 @@ input[type=submit] {
             margin-top: 1%;
         }
 
-        .col2{
+        .col2 {
             font-size: 10px;
         }
 
         .footer {
             width: 100%;
-            height: 680px;
+            height: 700px;
             background-image: url(ep_naturalblack.png);
             background-repeat: repeat-x repeat-y;
         }
