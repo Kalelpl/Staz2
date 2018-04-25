@@ -700,6 +700,10 @@ input[type=submit] {
         list-style: none;
         padding-bottom: 10px;
     }
+    
+    .footer {
+        height: 640px;
+    }
 }
 
 /* Small phones to small tablets from 481 to 767px */
