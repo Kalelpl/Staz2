@@ -1,0 +1,310 @@
+
+/* Small tablet to Big tablet from 768px to 1023px */
+
+@media only screen and (max-width: 1023px) {
+
+    .logo {
+        width: 55%;
+        float: right;
+    }
+
+    .searchOffer h1 {
+        font-size: 30px;
+    }
+
+    .searchOffer h2 {
+        font-size: 25px;
+    }
+
+    .col1 p {
+        margin-top: 5px;
+    }
+
+    .custom-select {
+        position: relative;
+        opacity: 1;
+        height: 100%;
+        width: 100%;
+        display: inline-block;
+    }
+
+    .about {
+        height: 260px;
+    }
+
+    .about p {
+        font-size: 12px;
+    }
+
+    .test {
+        background-color: #D33F3F;
+        opacity: 0.9;
+        height: 100%;
+        width: 40%;
+        display: inline-block;
+    }
+    .col2 span {
+        background: url('tick.png') no-repeat 0 center;
+        margin-left: 15%;
+        display: block;
+        color: white;
+        font-weight: 500;
+        padding: 2px 30px;
+    }
+    .linkList {
+        width: 14%;
+    }
+
+    .linkList:first-child {
+        margin-left: 15%;
+    }
+
+    .linkList li {
+        list-style: none;
+        padding-bottom: 10px;
+    }
+
+    .footer {
+        height: 640px;
+    }
+}
+
+/* Small phones to small tablets from 481 to 767px */
+
+@media only screen and (max-width: 768px) {
+
+    body {
+        font-size: 10px;
+    }
+
+    .logo {
+        width: 70%;
+    }
+
+    .test {
+        background-color: none;
+    }
+
+    .newsteller {
+        height: 140px;
+    }
+
+    .container input[type=text] {
+        width: 100px;
+    }
+    .container input[type=submit] {
+        width: 70px;
+        padding: 5px 0;
+        margin-top: 5px;
+        margin-left: 9px;
+    }
+
+    .col1 p {
+        margin-top: -1%;
+        text-align: center;
+    }
+
+    .col2 {
+        font-size: 12px;
+    }
+
+    .searchbar input[type=text] {
+        font-size: 17px;
+        border: 1px solid lightgrey;
+        width: 100px;
+    }
+
+    .dropmenu {
+        width: 95px;
+        height: 45px;
+        position: relative;
+        display: inline-block;
+        float: right;
+        background-color: #e42c35;
+        text-align: center;
+    }
+
+    .openbtn {
+        color: #e42c35;
+        display: none;
+        font-size: 40px;
+        margin-left: -50px;
+    }
+
+    /* Small phones from 0 to 480px*/
+    @media only screen and (max-width: 480px) {
+
+        .test {
+            background-color: none;
+        }
+        .sidenav {
+            height: 100%;
+            width: 0;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: #111;
+            overflow-x: hidden;
+            padding-top: 60px;
+        }
+
+        .sidenav a {
+            padding: 8px 8px 8px 32px;
+            text-decoration: none;
+            font-size: 25px;
+            color: #818181;
+            display: block;
+            transition: 0.3s;
+        }
+
+        .sidenav a:hover {
+            color: #f1f1f1;
+        }
+
+        .sidenav .closebtn {
+            position: absolute;
+            top: 0;
+            right: 25px;
+            font-size: 36px;
+            margin-left: 50px;
+        }
+
+        .openbtn {
+            display: inline-block;
+            font-size: 40px;
+            margin-left: -120px;
+        }
+
+        .menu3 li {
+            margin-right: 3px;
+        }
+
+        .dropmenu {
+            width: 100px;
+            height: 50px;
+            position: relative;
+            display: inline-block;
+            float: right;
+            background-color: #e42c35;
+            text-align: center;
+        }
+
+        .box {
+            margin: 2.2%;
+        }
+
+        .auto {
+            width: 15%;
+            height: 250px;
+            padding: 0 0.5%;
+        }
+        
+        .blogpost {
+            width: 22%;
+            height: 200px;
+        }
+
+        .container input[type=text] {
+            width: 100px;
+        }
+        .container input[type=submit] {
+            width: 70px;
+            padding: 5px 0;
+            margin-top: 5px;
+        }
+
+        .linkList {
+            width: 10%;
+            font-size: 10px;
+        }
+
+        .linkList:first-child {
+            margin-left: 10%;
+        }
+
+        .col2 span {
+            background: url('tick.png') no-repeat 0 center;
+            margin-left: 25%;
+            display: block;
+            color: white;
+            font-weight: 500;
+            padding: 1px 30px;
+        }
+
+        .newsteller p {
+            margin-top: 1%;
+            margin-left: -40%;
+            float: left;
+            white-space: nowrap;
+        }
+
+        .test input[type=submit] {
+            background-color: none;
+            width: 150px;
+            padding: 0px;
+            margin-left: 0%;
+            color: none;
+            opacity: 1;
+            margin-bottom: 3%;
+            font-size: 14px;
+            font-weight: 600;
+            border: 1px solid lightgrey;
+            cursor: pointer;
+        }
+
+        .linkList h2 {
+            font-size: 10px;
+            text-transform: uppercase;
+            color: #E42C35;
+        }
+        .address {
+            margin-top: 0px;
+        }
+
+        .about p {
+            font-size: 9px;
+        }
+
+        .ticket {
+            height: 300px;
+        }
+
+        .col1 h1 {
+            margin-top: 1%;
+        }
+
+        .col2 h1 {
+            font-size: 12px;
+            margin-top: 1%;
+        }
+
+        .col2 {
+            font-size: 10px;
+        }
+
+        .footer {
+            width: 100%;
+            height: 750px;
+            background-image: url(ep_naturalblack.png);
+            background-repeat: repeat-x repeat-y;
+        }
+
+        .bottom li {
+            list-style: none;
+            display: inline-block;
+            padding: 5px 8px;
+            height: 50px;
+            border-right: 1px solid grey;
+            font-size: 10px;
+            vertical-align: middle;
+        }
+
+        .bottom a {
+            text-decoration: none;
+            color: white;
+            text-align: justify;
+            padding-bottom: 10px;
+        }
+
+    }
